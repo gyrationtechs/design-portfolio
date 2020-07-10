@@ -16,9 +16,9 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-light nav-brand">
         <div class="container">
-             <a class="navbar-brand" href="#">Gabrielle</a>
+             <a class="navbar-brand nav-logo" href="#"><i class="fa fa-circle"></i><i class="fa fa-circle icon-sm"></i> Gabrielle</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,14 +51,20 @@
     <div class="hero content">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-8 mt-5">
                     <h2>Hello, I’m Gabrielle Smith</h2>
-                    <h1>UI & UX Designer</h1>
+                    <h1>UI & UX <span class="brand-color">Designer</span></h1>
                     <h2>I create designs with the desire of the user in mind</h2>
-                    <button class="btn hero-btn">Hire Me</button>
+                    <button class=" hero-btn btn">Hire Me</button>
                 </div>
-                <div class="col-md-6">
-                    <img src="./src/images/hero-header.png" alt="">
+                <div class="col-md-4">
+                    <div class="container circle-path">
+                        <div class="container ">
+                            <div class="container">
+                                <img src="./src/images/hero-header.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -70,25 +76,31 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 text-center">
-                    <h2>User Research</h2>
+                    <div class="service-dark">
+                        <h2>User Research</h2>
                     <p>
                         Stet clita kasd gubergren, 
                         no sea takimata sanctus est Lorem ipsum dolor sit amet.
                     </p>
+                    </div>
                 </div>
                 <div class="col-md-4 text-center">
-                    <h2>User Research</h2>
+                    <div class="service-dark service-brand">
+                        <h2>User Research</h2>
                     <p>
                         Stet clita kasd gubergren, 
                         no sea takimata sanctus est Lorem ipsum dolor sit amet.
                     </p>
+                    </div>
                 </div>
                 <div class="col-md-4 text-center">
-                    <h2>User Research</h2>
+                    <div class="service-dark">
+                        <h2>User Research</h2>
                     <p>
                         Stet clita kasd gubergren, 
                         no sea takimata sanctus est Lorem ipsum dolor sit amet.
                     </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -280,7 +292,7 @@
     <!-- Services End -->
 
     <!-- Contact -->
-    <div class="contact content">
+    <div class="contact content" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center text-uppercase">
