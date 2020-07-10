@@ -81,6 +81,7 @@ img {
     border-radius: 10px !important;
     padding: 8px 40px !important;
     margin-top: 10px;
+    text-transform: uppercase;
 }
 
 .circle-path {
