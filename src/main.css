@@ -204,16 +204,27 @@ img {
     background-size: contain;
 }
 
+.ab-position {
+    /* position: absolute;
+    top: -60px;
+    bottom: -20px; */
+    z-index: 1;
+}
+
 .bold {
     font-weight: 600 !important;
 }
 
+
+/* Services */
 .services {
     position: relative;
     padding: 150px 0;
     background: #3D405B;
+    margin-top: -120px;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
     color: #F4F1DE;
+    z-index: -1;
 }
 
 .services i {
@@ -229,6 +240,8 @@ img {
     font-weight: 100 !important;
 }
 
+
+/* Contact */
 .contact {
     position: relative;
     background: rgba(222, 218, 219, 0.2);
@@ -249,12 +262,17 @@ img {
     border: none;
 }
 
-.contact::before {
+.reverse-img {
+    position: absolute;
     background: url(images/footer-image.jpg) no-repeat;
     transform: matrix(-1, 0, 0, 1, 0, 0);
-    background-size: cover;
+    top: 40px;
+    padding-top: 60px;
+    background-size: coverS;
     z-index: 1;
 }
+
+/* Footer */
 
 .footer {
     position: relative;
