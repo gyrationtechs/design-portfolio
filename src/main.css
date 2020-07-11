@@ -231,12 +231,44 @@ img {
 
 .contact {
     position: relative;
-    background: rgba(222, 218, 219, 0.2) url(images/footer-image.jpg) no-repeat;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background: rgba(222, 218, 219, 0.2);
     color: #232433;
     padding: 40px 0;
 }
 
+.contact h2 {
+    font-weight: 800 !important;
+    margin: 20px 0;
+}
+
+.contact input {
+    border: none;
+}
+ 
+.contact textarea {
+    border: none;
+}
+
+.contact::before {
+    background: url(images/footer-image.jpg) no-repeat;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background-size: cover;
+    z-index: 1;
+}
+
 .footer {
     position: relative;
+    color: #3D405B;
+    padding: 12px 0;
+}
+
+.footer i {
+    margin: 0 8px;
+}
+
+.bg-footer {
+    background: #E07A5F;
+    color: #FCFCFC;
+    padding: 5px;
+    border-radius: 4px;
 }
