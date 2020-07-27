@@ -314,3 +314,10 @@ img {
     padding: 5px;
     border-radius: 4px;
 }
+
+/* Media Queries */
+@media screen and max-width(520px) {
+  .services-grid {
+      position: relative;
+  }
+}
