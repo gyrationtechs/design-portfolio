@@ -316,8 +316,8 @@ img {
 }
 
 /* Media Queries */
-@media screen and max-width(520px) {
+@media screen and (max-width:520px) {
   .services-grid {
-      position: relative;
+      position: relative !important;
   }
 }
